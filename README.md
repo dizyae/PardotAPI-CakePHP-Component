@@ -37,7 +37,7 @@ $prospect_data = array(
   'zip'=>$this->request->data['Store']['zip'],
   'phone'=>$this->request->data['Store']['phone']
 );
-  $pardot_prospect = $this->Pardot->create_prospect($store['Store']['email'], $prospect_data);
+  $pardot_prospect = $this->Pardot->create_prospect($prospect_email, $prospect_data);
 ```
 
 
