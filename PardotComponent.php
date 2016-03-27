@@ -21,7 +21,7 @@ class PardotComponent extends Component
     //replace with pardot api user key
     const user_key = 'xxxxxxxxxxxx';
 
-
+    private $campaign_id = '';
     /**
      * startup method
      *
